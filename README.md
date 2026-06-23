@@ -1,4 +1,4 @@
-﻿# MusicHub — 项目技术文档
+# MusicHub — 项目技术文档
 
 ## 1. 概览
 
@@ -216,22 +216,3 @@ scrollBehavior 在每次路由切换时滚动到页面顶部。
                            ├── Axios → iTunes API → 归一化 → 响应式数据
                            └── localStorage ←→ 持久化（收藏/历史）
 → 组件 re-render → DOM 更新
-`
-
-## 7. 本地开发
-
-`ash
-# 安装依赖
-npm install
-
-# 启动开发服务器（http://127.0.0.1:5173）
-npm run dev
-
-# 生产构建
-npm run build
-
-# 预览生产构建
-npm run preview
-`
-
-构建产物输出到 dist/ 目录，可直接部署到任意静态文件服务器。
