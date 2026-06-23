@@ -1,0 +1,31 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "MusicHub 首页" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: M
+      - generic [ref=e7]:
+        - strong [ref=e8]: MusicHub
+        - generic [ref=e9]: 收藏与推荐平台
+    - navigation [ref=e10]:
+      - link "首页" [ref=e11] [cursor=pointer]:
+        - /url: /
+      - link "搜索" [ref=e12] [cursor=pointer]:
+        - /url: /search
+      - link "收藏夹" [ref=e13] [cursor=pointer]:
+        - /url: /favorite
+      - link "推荐" [ref=e14] [cursor=pointer]:
+        - /url: /recommend
+      - link "播放页" [ref=e15] [cursor=pointer]:
+        - /url: /player
+  - main [ref=e16]
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: ♪
+      - generic [ref=e20]:
+        - strong [ref=e21]: 还没有选择歌曲
+        - generic [ref=e22]: 在歌曲卡片点击播放即可试听
+    - generic [ref=e23]:
+      - button [disabled] [ref=e24]:
+        - img [ref=e27]
+      - slider "slider between 0 and 30" [disabled] [ref=e31]
+      - generic [ref=e33]: 0:00 / 0:30

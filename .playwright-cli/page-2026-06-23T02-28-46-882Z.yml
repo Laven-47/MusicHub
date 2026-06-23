@@ -1,0 +1,272 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "MusicHub 首页" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: M
+      - generic [ref=e7]:
+        - strong [ref=e8]: MusicHub
+        - generic [ref=e9]: 收藏与推荐平台
+    - navigation [ref=e10]:
+      - link "首页" [ref=e11] [cursor=pointer]:
+        - /url: /
+      - link "搜索" [ref=e12] [cursor=pointer]:
+        - /url: /search
+      - link "收藏夹" [ref=e13] [cursor=pointer]:
+        - /url: /favorite
+      - link "推荐" [ref=e14] [cursor=pointer]:
+        - /url: /recommend
+      - link "播放页" [ref=e15] [cursor=pointer]:
+        - /url: /player
+  - main [ref=e16]:
+    - generic [ref=e34]:
+      - heading "音乐搜索" [level=1] [ref=e35]
+      - paragraph [ref=e36]: 搜索歌曲、歌手、专辑，结果会按歌曲分页展示，并写入本地搜索记录用于推荐。
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e40]:
+            - img [ref=e43]
+            - textbox "搜索歌曲、歌手、专辑，例如：周杰伦、林俊杰、Taylor Swift" [ref=e45]: 周杰伦
+          - button "搜索" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]: 搜索
+        - generic [ref=e70]:
+          - generic [ref=e71]: 搜索记录
+          - generic [ref=e73] [cursor=pointer]: 周杰伦
+          - button "清空" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: 清空
+      - generic [ref=e48]:
+        - tabpanel "歌曲" [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: 共 60 首，当前第 1 页
+            - generic [ref=e76]:
+              - button "Go to previous page" [disabled] [ref=e77]:
+                - generic:
+                  - img
+              - list [ref=e78]:
+                - listitem "page 1" [ref=e79]: "1"
+                - listitem "page 2" [ref=e80] [cursor=pointer]: "2"
+                - listitem "page 3" [ref=e81] [cursor=pointer]: "3"
+                - listitem "page 4" [ref=e82] [cursor=pointer]: "4"
+                - listitem "page 5" [ref=e83] [cursor=pointer]: "5"
+              - button "Go to next page" [ref=e84] [cursor=pointer]:
+                - generic:
+                  - img
+          - generic [ref=e85]:
+            - generic [ref=e87]:
+              - link "晴天" [ref=e88] [cursor=pointer]:
+                - /url: /song/535824738
+                - img "晴天" [ref=e89]
+              - generic [ref=e90]:
+                - link "晴天" [ref=e91] [cursor=pointer]:
+                  - /url: /song/535824738
+                - paragraph [ref=e92]: 周杰伦
+                - paragraph [ref=e93]: 叶惠美
+                - generic [ref=e94]:
+                  - generic [ref=e96]: 4:30
+                  - generic [ref=e97]: 国语流行
+                - generic [ref=e98]:
+                  - button [ref=e99] [cursor=pointer]:
+                    - img [ref=e102]
+                  - button [ref=e104] [cursor=pointer]:
+                    - img [ref=e107]
+            - generic [ref=e110]:
+              - link "那天下雨了" [ref=e111] [cursor=pointer]:
+                - /url: /song/6771326799
+                - img "那天下雨了" [ref=e112]
+              - generic [ref=e113]:
+                - link "那天下雨了" [ref=e114] [cursor=pointer]:
+                  - /url: /song/6771326799
+                - paragraph [ref=e115]: 周杰伦
+                - paragraph [ref=e116]: 太阳之子
+                - generic [ref=e117]:
+                  - generic [ref=e119]: 3:43
+                  - generic [ref=e120]: 国语流行
+                - generic [ref=e121]:
+                  - button [ref=e122] [cursor=pointer]:
+                    - img [ref=e125]
+                  - button [ref=e127] [cursor=pointer]:
+                    - img [ref=e130]
+            - generic [ref=e133]:
+              - link "搁浅" [ref=e134] [cursor=pointer]:
+                - /url: /song/536115199
+                - img "搁浅" [ref=e135]
+              - generic [ref=e136]:
+                - link "搁浅" [ref=e137] [cursor=pointer]:
+                  - /url: /song/536115199
+                - paragraph [ref=e138]: 周杰伦
+                - paragraph [ref=e139]: 七里香
+                - generic [ref=e140]:
+                  - generic [ref=e142]: 3:58
+                  - generic [ref=e143]: 国语流行
+                - generic [ref=e144]:
+                  - button [ref=e145] [cursor=pointer]:
+                    - img [ref=e148]
+                  - button [ref=e150] [cursor=pointer]:
+                    - img [ref=e153]
+            - generic [ref=e156]:
+              - link "爱在西元前" [ref=e157] [cursor=pointer]:
+                - /url: /song/535739349
+                - img "爱在西元前" [ref=e158]
+              - generic [ref=e159]:
+                - link "爱在西元前" [ref=e160] [cursor=pointer]:
+                  - /url: /song/535739349
+                - paragraph [ref=e161]: 周杰伦
+                - paragraph [ref=e162]: 范特西
+                - generic [ref=e163]:
+                  - generic [ref=e165]: 3:54
+                  - generic [ref=e166]: 国语流行
+                - generic [ref=e167]:
+                  - button [ref=e168] [cursor=pointer]:
+                    - img [ref=e171]
+                  - button [ref=e173] [cursor=pointer]:
+                    - img [ref=e176]
+            - generic [ref=e179]:
+              - link "七里香" [ref=e180] [cursor=pointer]:
+                - /url: /song/536115195
+                - img "七里香" [ref=e181]
+              - generic [ref=e182]:
+                - link "七里香" [ref=e183] [cursor=pointer]:
+                  - /url: /song/536115195
+                - paragraph [ref=e184]: 周杰伦
+                - paragraph [ref=e185]: 七里香
+                - generic [ref=e186]:
+                  - generic [ref=e188]: 4:57
+                  - generic [ref=e189]: 国语流行
+                - generic [ref=e190]:
+                  - button [ref=e191] [cursor=pointer]:
+                    - img [ref=e194]
+                  - button [ref=e196] [cursor=pointer]:
+                    - img [ref=e199]
+            - generic [ref=e202]:
+              - link "花海" [ref=e203] [cursor=pointer]:
+                - /url: /song/1624001317
+                - img "花海" [ref=e204]
+              - generic [ref=e205]:
+                - link "花海" [ref=e206] [cursor=pointer]:
+                  - /url: /song/1624001317
+                - paragraph [ref=e207]: 周杰伦
+                - paragraph [ref=e208]: 魔杰座
+                - generic [ref=e209]:
+                  - generic [ref=e211]: 4:24
+                  - generic [ref=e212]: 国语流行
+                - generic [ref=e213]:
+                  - button [ref=e214] [cursor=pointer]:
+                    - img [ref=e217]
+                  - button [ref=e219] [cursor=pointer]:
+                    - img [ref=e222]
+            - generic [ref=e225]:
+              - link "兰亭序" [ref=e226] [cursor=pointer]:
+                - /url: /song/1624001320
+                - img "兰亭序" [ref=e227]
+              - generic [ref=e228]:
+                - link "兰亭序" [ref=e229] [cursor=pointer]:
+                  - /url: /song/1624001320
+                - paragraph [ref=e230]: 周杰伦
+                - paragraph [ref=e231]: 魔杰座
+                - generic [ref=e232]:
+                  - generic [ref=e234]: 4:14
+                  - generic [ref=e235]: 国语流行
+                - generic [ref=e236]:
+                  - button [ref=e237] [cursor=pointer]:
+                    - img [ref=e240]
+                  - button [ref=e242] [cursor=pointer]:
+                    - img [ref=e245]
+            - generic [ref=e248]:
+              - link "半岛铁盒" [ref=e249] [cursor=pointer]:
+                - /url: /song/536162079
+                - img "半岛铁盒" [ref=e250]
+              - generic [ref=e251]:
+                - link "半岛铁盒" [ref=e252] [cursor=pointer]:
+                  - /url: /song/536162079
+                - paragraph [ref=e253]: 周杰伦
+                - paragraph [ref=e254]: 八度空间
+                - generic [ref=e255]:
+                  - generic [ref=e257]: 5:17
+                  - generic [ref=e258]: 国语流行
+                - generic [ref=e259]:
+                  - button [ref=e260] [cursor=pointer]:
+                    - img [ref=e263]
+                  - button [ref=e265] [cursor=pointer]:
+                    - img [ref=e268]
+            - generic [ref=e271]:
+              - link "说好的幸福呢" [ref=e272] [cursor=pointer]:
+                - /url: /song/1624001319
+                - img "说好的幸福呢" [ref=e273]
+              - generic [ref=e274]:
+                - link "说好的幸福呢" [ref=e275] [cursor=pointer]:
+                  - /url: /song/1624001319
+                - paragraph [ref=e276]: 周杰伦
+                - paragraph [ref=e277]: 魔杰座
+                - generic [ref=e278]:
+                  - generic [ref=e280]: 4:17
+                  - generic [ref=e281]: 国语流行
+                - generic [ref=e282]:
+                  - button [ref=e283] [cursor=pointer]:
+                    - img [ref=e286]
+                  - button [ref=e288] [cursor=pointer]:
+                    - img [ref=e291]
+            - generic [ref=e294]:
+              - link "稻香" [ref=e295] [cursor=pointer]:
+                - /url: /song/1624001324
+                - img "稻香" [ref=e296]
+              - generic [ref=e297]:
+                - link "稻香" [ref=e298] [cursor=pointer]:
+                  - /url: /song/1624001324
+                - paragraph [ref=e299]: 周杰伦
+                - paragraph [ref=e300]: 魔杰座
+                - generic [ref=e301]:
+                  - generic [ref=e303]: 3:43
+                  - generic [ref=e304]: 国语流行
+                - generic [ref=e305]:
+                  - button [ref=e306] [cursor=pointer]:
+                    - img [ref=e309]
+                  - button [ref=e311] [cursor=pointer]:
+                    - img [ref=e314]
+            - generic [ref=e317]:
+              - link "明明就" [ref=e318] [cursor=pointer]:
+                - /url: /song/587743637
+                - img "明明就" [ref=e319]
+              - generic [ref=e320]:
+                - link "明明就" [ref=e321] [cursor=pointer]:
+                  - /url: /song/587743637
+                - paragraph [ref=e322]: 周杰伦
+                - paragraph [ref=e323]: 十二新作
+                - generic [ref=e324]:
+                  - generic [ref=e326]: 4:20
+                  - generic [ref=e327]: 国语流行
+                - generic [ref=e328]:
+                  - button [ref=e329] [cursor=pointer]:
+                    - img [ref=e332]
+                  - button [ref=e334] [cursor=pointer]:
+                    - img [ref=e337]
+            - generic [ref=e340]:
+              - link "最长的电影" [ref=e341] [cursor=pointer]:
+                - /url: /song/536030702
+                - img "最长的电影" [ref=e342]
+              - generic [ref=e343]:
+                - link "最长的电影" [ref=e344] [cursor=pointer]:
+                  - /url: /song/536030702
+                - paragraph [ref=e345]: 周杰伦
+                - paragraph [ref=e346]: 我很忙
+                - generic [ref=e347]:
+                  - generic [ref=e349]: 3:56
+                  - generic [ref=e350]: 国语流行
+                - generic [ref=e351]:
+                  - button [ref=e352] [cursor=pointer]:
+                    - img [ref=e355]
+                  - button [ref=e357] [cursor=pointer]:
+                    - img [ref=e360]
+        - tablist [ref=e60]:
+          - tab "歌曲" [selected] [ref=e62]
+          - tab "歌手" [ref=e63]
+          - tab "专辑" [ref=e64]
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: ♪
+      - generic [ref=e20]:
+        - strong [ref=e21]: 还没有选择歌曲
+        - generic [ref=e22]: 在歌曲卡片点击播放即可试听
+    - generic [ref=e23]:
+      - button [disabled] [ref=e24]:
+        - img [ref=e27]
+      - slider "slider between 0 and 30" [disabled] [ref=e31]
+      - generic [ref=e33]: 0:00 / 0:30
