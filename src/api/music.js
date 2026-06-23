@@ -2,7 +2,7 @@ import axios from 'axios'
 import { uniqueByTrackId, upscaleArtwork } from '../utils/format'
 
 const client = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://itunes.apple.com',
   timeout: 12000
 })
 

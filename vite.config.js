@@ -5,13 +5,6 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     host: '127.0.0.1',
-    port: 5173,
-    proxy: {
-      '/api': {
-        target: 'https://itunes.apple.com',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '')
-      }
-    }
+    port: 5173
   }
 })
